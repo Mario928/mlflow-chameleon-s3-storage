@@ -29,7 +29,7 @@ The modern MLflow client (v3.x) is not backward compatible with the older MLflow
 
 ### Checksum Issues
 
-I investigated the known boto3 checksum calculation issue related to OpenStack Swift. In my testing on the Chameleon VM environment, the standard multipart upload worked without needing the `AWS_REQUEST_CHECKSUM_CALCULATION` environment variable. Both versions (2.20 and 3.9) persisted artifacts to the bucket correctly out of the box.
+I investigated the known boto3 checksum calculation issue related to OpenStack Swift (detailed in [chameo issue #7](https://github.com/A7med7x7/chameo/issues/7)). In my testing on the Chameleon VM environment, the standard multipart upload worked without needing the `AWS_REQUEST_CHECKSUM_CALCULATION` environment variable. Both versions (2.20 and 3.9) persisted artifacts to the bucket correctly out of the box.
 
 ## How to use
 
