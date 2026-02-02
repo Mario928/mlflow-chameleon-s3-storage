@@ -1,8 +1,8 @@
 # MLflow Object Storage Test on Chameleon Cloud
 
-This repository contains the configuration and scripts used to test MLflow's ability to save large model checkpoints directly to Chameleon S3 storage (Swift/OpenStack), bypassing the need for a local MinIO container.
+This repository contains the configuration and scripts used to test MLflow's ability to save large model checkpoints directly to Chameleon S3 storage (Swift/OpenStack).
 
-The goal was to verify if large models (up to 5.4GB) can be logged without encountering the checksum or timeout issues often reported when using S3-compatible backends on Chameleon.
+The goal was to verify if large models (up to 5.4GB) can be logged without encountering any issues.
 
 ## Repository Structure
 
